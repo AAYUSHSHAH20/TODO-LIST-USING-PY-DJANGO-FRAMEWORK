@@ -1,0 +1,11 @@
+{% extends 'base/main.html' %}
+{% block content %}
+
+<h1>{{task.complete}}</h1>
+{% if task.complete %}
+<h1>Hey</h1>
+{% else %}
+<h1>Ho</h1>
+{% endif %}
+
+{% endblock content %}
